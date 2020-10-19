@@ -19,7 +19,7 @@ is a vaild XML-document.
 ### Usage:
 
 ```
-$me --url https://example.com/ --help
+sdc-dod-soap.sh --url https://example.com/ --help
 ```
 
 ###  Options:
