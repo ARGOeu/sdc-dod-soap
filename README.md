@@ -9,11 +9,22 @@ The SOAP-webservices are used in the MIKADO-software to offer access for users t
 
 ## how to use it 
 
-Usage: $me [options]
+ $me [options]
+
 Script to check DOD SOAPservice is working.
+
 It takes as argument a URL and checks if the HTTP response
 is a vaild XML-document.
 
-Options:
-  -u, --url <URL>			URL of the service
-  -h, --help                Print this help text.
+### Usage:
+
+```
+$me --url https://example.com/ --help
+```
+
+###  Options:
+```
+  -u, --url <URL>		URL of the service
+  -h, --help            Print this help text.
+```
+  
