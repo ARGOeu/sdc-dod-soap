@@ -23,7 +23,7 @@ A probe to check functionality of SOAP-webservices that offer CSRs (in fomats IS
 
 install -d %{buildroot}/%{_libexecdir}/argo-monitoring/probes/seadatacloud-dod-soap
 install -d %{buildroot}/%{_sysconfdir}/nagios/plugins/seadatacloud-dod-soap
-install -m 755 seadatacloud-nvs2.sh %{buildroot}/%{_libexecdir}/argo-monitoring/probes/seadatacloud-dod-soap/sdc-dod-soap.sh
+install -m 755 sdc-dod-soap.sh %{buildroot}/%{_libexecdir}/argo-monitoring/probes/seadatacloud-dod-soap/sdc-dod-soap.sh
 
 %files
 %dir /%{_libexecdir}/argo-monitoring
