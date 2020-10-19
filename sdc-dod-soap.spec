@@ -1,4 +1,4 @@
-Name:		nagios-plugins-sdc-dod-soap
+Name:		sdc-dod-soap
 Version:	1.0.1
 Release:	2%{?dist}
 Summary:	Nagios sdc dod soap service 

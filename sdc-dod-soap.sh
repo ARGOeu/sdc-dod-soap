@@ -4,7 +4,7 @@
 usage () {
 cat <<EOF
 Usage: $me [options]
-Script to check EDMO_CMS Login service is working.
+Script to check DOD SOAPservice is working.
 It takes as argument a URL and checks if the HTTP response
 is a vaild XML-document.
 
