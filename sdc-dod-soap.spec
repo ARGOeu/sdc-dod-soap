@@ -33,5 +33,5 @@ install -m 755 seadatacloud-nvs2.sh %{buildroot}/%{_libexecdir}/argo-monitoring/
 %attr(0755,root,root) /%{_libexecdir}/argo-monitoring/probes/seadatacloud-dod-soap/sdc-dod-soap.sh
 
 %changelog
-* Thu Oct 7 2020 Themis Zamani <themiszamani@gmail.com>  - 1.0.0-1%{?dist}
+* Thu Oct 13 2020 Themis Zamani <themiszamani@gmail.com>  - 1.0.0-1%{?dist}
 - Initial version of the package. Work done by Micahlis Iordanis - iordanism@hcmr.gr 
