@@ -1,5 +1,9 @@
 # sdc-dod-soap
+SOAP-webservices that offer CSRs (in fomats ISO19115 and ISO19139) for MARIS.
+
 Plugin for DOD - SOAP-webservices that offer CSRs . This is a probe that checks functionality of SOAP-webservices that offer CSRs (in fomats ISO19115 and ISO19139) for MARIS
+
+The SOAP-webservices are used in the MIKADO-software to offer access for users to the CSR-list if they want to generate CDI-entries. MARIS itself uses the SOAP webservices to control the format of the incoming CDIs.
 
 
 
