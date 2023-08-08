@@ -58,7 +58,7 @@ fi
 
 
 #xmlstarlet val -w http://seadata.bsh.de/axis2/services/CSR2?wsdl
-xmlstarlet val -w -s $URL
+xmlstarlet val -w $URL
 XML_STATUS=$(echo $?)
 if [ $XML_STATUS -eq 0 ];then
 	echo -e "\n OK - $URL is a valid XML-Document | xml_document_validity=0"
